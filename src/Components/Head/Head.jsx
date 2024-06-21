@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Head = () => {
     return (
-        <div className="px-6 md:px-16 py-4">
+        <div className="px-6 md:px-16 py-4 text-white">
             <div className="flex justify-between items-center">
                 {/* left head */}
                 <div className="">
@@ -15,16 +15,16 @@ const Head = () => {
                 </div>
                 {/* right head */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <Link><FaFacebookF size={35} className="rounded-full p-2 bg-slate-100 
+                    <Link><FaFacebookF size={35} className="rounded-full p-2 bg-slate-200 
                     text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/></Link>
                     <Link>
-                    <FaInstagram size={35} className="rounded-full p-2 bg-slate-100 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
+                    <FaInstagram size={35} className="rounded-full p-2 bg-slate-200 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
                     </Link>
                     <Link>
-                    <FaTwitter size={35} className="rounded-full p-2 bg-slate-100 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
+                    <FaTwitter size={35} className="rounded-full p-2 bg-slate-200 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
                     </Link>
                     <Link>
-                    <FaYoutube size={35} className="rounded-full p-2 bg-slate-100 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
+                    <FaYoutube size={35} className="rounded-full p-2 bg-slate-200 text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-200"/>
                     </Link>
                 </div>
             </div>
