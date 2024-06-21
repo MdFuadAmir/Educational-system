@@ -1,5 +1,6 @@
 import Hero from "../../Components/Hero/Hero";
 import LearAnythink from "../../Components/LearnAnythink/LearAnythink";
+import OurCourses from "../../Components/OurCourses/OurCourses";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <Hero/>
             <LearAnythink/>
+            <OurCourses/>
         </div>
     );
 };
