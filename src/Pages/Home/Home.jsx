@@ -2,6 +2,7 @@ import Blog from "../../Components/Blog/Blog";
 import Header from "../../Components/Header/Header";
 import Hero from "../../Components/Hero/Hero";
 import LearAnythink from "../../Components/LearnAnythink/LearAnythink";
+import NewsLetter from "../../Components/NewsLetter/NewsLetter";
 import OnlineCourses from "../../Components/OnlineCourses/OnlineCourses";
 import OurCourses from "../../Components/OurCourses/OurCourses";
 import Price from "../../Components/Price/Price";
@@ -20,6 +21,7 @@ const Home = () => {
             <Testmonial/>
             <Blog/>
             <Price/>
+            <NewsLetter/>
         </div>
     );
 };
