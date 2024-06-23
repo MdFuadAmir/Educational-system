@@ -45,14 +45,11 @@ const Testmonial = () => {
                                 <div className=" space-y-2">
                                     <h1 className="text-2xl font-bold font-serif">{data.name}</h1>
                                     <p className="">{data.work}</p>
-
                                 </div>
                             </div>
                             <p className="text-lg p-4">{data.discription}</p>
-
                         </div>)
                     }
-
                 </div>
                 
             </div>

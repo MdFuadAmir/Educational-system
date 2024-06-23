@@ -1,3 +1,4 @@
+import Blog from "../../Components/Blog/Blog";
 import Hero from "../../Components/Hero/Hero";
 import LearAnythink from "../../Components/LearnAnythink/LearAnythink";
 import OnlineCourses from "../../Components/OnlineCourses/OnlineCourses";
@@ -14,6 +15,7 @@ const Home = () => {
             <OurCourses/>
             <OnlineCourses/>
             <Testmonial/>
+            <Blog/>
         </div>
     );
 };
