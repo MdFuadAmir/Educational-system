@@ -33,7 +33,7 @@ const courses =[
 
 const OurCourses = () => {
     return (
-        <div className="bg-[#eae9ed]">
+        <div>
             {/* header */}
             <div className=" space-y-3 text-center py-6">
                 <p className="text-[#1eb2a6] font-bold text-lg">OUR COURSES</p>

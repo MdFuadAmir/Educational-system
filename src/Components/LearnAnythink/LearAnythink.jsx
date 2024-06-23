@@ -26,7 +26,7 @@ const datas = [
 
 const LearAnythink = () => {
     return (
-        <div className="bg-[#eae9ed]">
+        <div>
             <div className="grid grid-cols-1 md:grid-cols-2 bg-[f6f4f5] px-4 md:px-12 gap-4 py-12 items-center">
             {/* photo */}
             <div className="">

@@ -38,7 +38,7 @@ const links =[
 const Header = () => {
     const [menu, setMenu] = useState(false);
     return (
-        <div className="bg-cyan-400">
+        <div className="bg-[#3dc9be]">
         <Head/>
 
         <nav className="font-mono bg-slate-100 bg-opacity-20 pl-0 md:pl-9 text-white">

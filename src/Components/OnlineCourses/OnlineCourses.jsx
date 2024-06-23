@@ -88,7 +88,7 @@ const datas = [
 
 const OnlineCourses = () => {
     return (
-        <div className="py-12 bg-[#eae9ed]">
+        <div className="py-12">
             {/* header */}
             <div className=" space-y-3 text-center py-6">
                 <p className="text-[#1eb2a6] font-bold text-lg"> COURSES</p>

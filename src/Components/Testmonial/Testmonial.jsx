@@ -28,7 +28,7 @@ const datas =[
 ]
 const Testmonial = () => {
     return (
-        <div className="bg-[#eae9ed]">
+        <div>
             {/* header */}
             <div className=" space-y-3 text-center py-12">
                 <p className="text-[#1eb2a6] font-bold text-lg">TESTIMONIAL</p>
