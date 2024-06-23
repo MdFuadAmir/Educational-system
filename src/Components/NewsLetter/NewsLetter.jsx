@@ -2,7 +2,7 @@ import { IoIosSend } from "react-icons/io";
 
 const NewsLetter = () => {
     return (
-        <div className="bg-[#1eb2a6] my-16 p-4 py-4 md:px-12 md:py-8">
+        <div className="bg-[#1eb2a6] mt-16 p-4 py-4 md:px-12 md:py-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                     <h1 className=" font-mono font-semibold text-3xl text-white">Newsletter - Stay tune and get the latest update</h1>
