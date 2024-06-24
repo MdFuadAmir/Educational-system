@@ -24,7 +24,7 @@ const Pricing = () => {
             </div>
             {/* faq */}
             <div className="mt-12 px-4 md:px-12 flex justify-center">
-            <div className="join join-vertical w-1/2 space-y-3">
+            <div className="join join-vertical w-full md:w-1/2 space-y-3">
   <div className="collapse collapse-arrow join-item bg-white text-[#1eb2a6] hover:bg-[#1eb2a6] hover:text-white duration-300 border-base-300 border">
     <input type="radio" name="my-accordion-4" defaultChecked />
     <div className="collapse-title text-xl font-medium">How to Enroll This Online Courses?</div>
@@ -72,7 +72,6 @@ const Pricing = () => {
 
             </div>
             <NewsLetter/>
-            
         </div>
     );
 };
