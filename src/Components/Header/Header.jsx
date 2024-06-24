@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Head from "../Head/Head";
+
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineMenu } from "react-icons/md";
@@ -38,9 +38,7 @@ const links =[
 const Header = () => {
     const [menu, setMenu] = useState(false);
     return (
-        <div className="bg-[#3dc9be]">
-        <Head/>
-
+        <div className=" bg-transparent">
         <nav className="font-mono bg-slate-100 bg-opacity-20 pl-0 md:pl-9 text-white">
             <div className="flex flex-row-reverse md:flex-row justify-between items-center">
                 <div>

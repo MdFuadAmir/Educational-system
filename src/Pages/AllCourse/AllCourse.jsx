@@ -11,6 +11,9 @@ import img6 from "../../assets/c6.png"
 import img7 from "../../assets/c7.png"
 import img8 from "../../assets/c8.png"
 import img9 from "../../assets/c9.png"
+import Head from "../../Components/Head/Head";
+import bgimg from "../../assets/b1.png"
+import Header from "../../Components/Header/Header";
 
 const courses =[
     {
@@ -87,11 +90,24 @@ const courses =[
     },
 ]
 
-
 const AllCourse = () => {
     return (
         <div>
-            
+            <div style={{height:"100vh", backgroundImage:`url(${bgimg})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <Head/>
+            <Header/>
+            <div className="w-full h-full flex justify-center items-center flex-col gap-6">
+                <p className="text-xl text-white font-bold font-sans">Home/All Courses</p>
+                <h1 className="text-3xl md:text-5xl text-white font-bold font-sans">Explore Courses</h1>
+
+            </div>
+            </div>
+
+            {/* header */}
+            <div className=" space-y-3 text-center py-6 mt-8">
+                <p className="text-[#1eb2a6] font-bold text-lg">OUR COURSES</p>
+                <h1 className="font-bold text-3xl md:text-5xl">Explore Our Popular Online Courses</h1>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-12 gap-4">
                 {
                     courses.map((course) => <div key={course.id} className="bg-white hover:text-white hover:bg-[#1eb2a6] duration-500 p-4 rounded-lg">

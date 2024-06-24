@@ -3,7 +3,7 @@ import coverPhoto from "../../assets/pexels-dima-valkov-1186343-4826213-removebg
 
 const Hero = () => {
     return (
-        <div className="bg-[#3dc9be] text-white pb-6 md:pb-0">
+        <div className="text-white pb-6 md:pb-0">
             <div className="px-4 md:px-12 pt-8 flex flex-col-reverse md:flex-row justify-between gap-6 items-center">
                 <div className="w-full md:w-1/2">
                     <div>
