@@ -43,7 +43,7 @@ const Contact = () => {
                     {/*  */}
                     <div className="my-6">
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col md:flex-row items-center gap-4">
                     <input type="text" placeholder="Name" className="input input-bordered input-primary w-full" />
                     <input type="email" placeholder="Email" className="input input-bordered input-primary w-full" />
                     </div>
