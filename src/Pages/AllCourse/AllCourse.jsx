@@ -93,12 +93,12 @@ const courses =[
 const AllCourse = () => {
     return (
         <div>
-            <div style={{height:"100vh", backgroundImage:`url(${bgimg})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <div style={{height:"115vh", backgroundImage:`url(${bgimg})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
             <Head/>
             <Header/>
             <div className="w-full h-full flex justify-center items-center flex-col gap-6">
-                <p className="text-xl text-white font-bold font-sans">Home/All Courses</p>
-                <h1 className="text-3xl md:text-5xl text-white font-bold font-sans">Explore Courses</h1>
+                <p className="text-xl text-white font-bold font-mono">Home / All Courses</p>
+                <h1 className="text-3xl md:text-5xl text-white font-bold font-mono">Explore Courses</h1>
 
             </div>
             </div>
