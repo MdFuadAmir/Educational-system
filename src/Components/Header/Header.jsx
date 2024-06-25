@@ -62,7 +62,7 @@ const Header = () => {
                 {/* Monbile Navber  */}
                 {
                     menu && (
-                <div className="md:hidden flex-col flex items-center justify-center space-y-3 bg-slate-100 bg-opacity-20 py-4  rounded-lg font-semibold">
+                <div className="md:hidden flex-col flex items-center justify-center space-y-3 bg-slate-100 bg-opacity-20 py-4  rounded-lg font-semibold text-black">
                     {
                         links.map((link) => (<Link to={link.path} key={link.id} className="hover:border-green-600 hover:border-b-2 hover:text-green-500 hover:scale-105 duration-200">{link.name}</Link>))
                     }
